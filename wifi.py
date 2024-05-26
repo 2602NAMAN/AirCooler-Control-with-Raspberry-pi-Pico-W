@@ -2,8 +2,8 @@ import network
 import time
 
 # Connect to WiFi
-ssid = 'Tatasky'
-password = '<#1054_$2602>'
+ssid = 'your_ssid'
+password = 'your_password'
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
 wlan.connect(ssid, password)
