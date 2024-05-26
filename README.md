@@ -1,7 +1,10 @@
 # Smart-Cooler
-Hello, I uses a Air Cooler at home for cooling my room in summer. It was around 7-8 years old and have 3-knobs for controlling the Fan, Pump, Swing functions in the cooler.
+I have been using an air cooler to cool my room during the summer for the past 7-8 years. The cooler features three control knobs for managing the fan, pump, and swing functions. To modernize this device and enable remote control, I decided to incorporate a microcontroller.
 
-So, I wanted it to make control remotely by the help of some micro-controller, by the help of that want to control it 3 main function with the help of relays and add a timer to turn on or off it. There was a raspberry pi pico w lying around it uses micropython(lighter version of python) so i decided to use that. I made a simple web server which there are some buttons and timers.
+I opted to use a Raspberry Pi Pico W, which runs MicroPython—a lightweight version of Python—since I had one available. My goal was to control the cooler's three main functions using relays and add a timer feature for scheduled operation.
+
+To achieve this, I developed a simple web server with a user interface that includes buttons and timers. This setup allows for remote control and scheduling of the air cooler's fan, pump, and swing functions, providing enhanced convenience and efficiency.
+
 
 # Hardware Requirements -
 1. Raspberry pi pico W
@@ -27,6 +30,6 @@ So, I wanted it to make control remotely by the help of some micro-controller, b
 ![image](https://github.com/2602NAMAN/Smart-Cooler/assets/113130600/36ed3e5d-a3b5-473b-abee-c979617a9c57)
 
 ## Flaws-
-There are some flaw in this as it was made by single person. (One known error is only one timer will work at a time). You and download and use it for your purpose.
+Please note that this project was developed by a single person and may have some flaws. One known issue is that only one timer can function at a time. You are welcome to download and use the system for your purposes.
 
-Feel free to ask any queries or suggestion, I would appreciate any bug fix like I mentioned one above. 
+Feel free to reach out with any queries or suggestions. I would greatly appreciate any assistance with bug fixes, such as resolving the timer issue mentioned above.
