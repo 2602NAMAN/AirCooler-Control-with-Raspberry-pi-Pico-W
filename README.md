@@ -25,6 +25,8 @@ To achieve this, I developed a simple web server with a user interface that incl
 
 > AT the bottom the timer will run in loop to turn on or off the pump (this will help in control the humidity of the room)
 
+NOTE- You can use (wifi.py) file to diganose your wifi connectivity.
+
 ## Circuit Diagram- (pretty stright forword)
 
 ![image](https://github.com/2602NAMAN/Smart-Cooler/assets/113130600/36ed3e5d-a3b5-473b-abee-c979617a9c57)
