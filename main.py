@@ -11,9 +11,9 @@ from html_template import HTML_TEMPLATE
 ssid = wifi_credentials.SSID
 password = wifi_credentials.PASSWORD
 
-relay1 = Pin(19, Pin.OUT)
-relay2 = Pin(20, Pin.OUT)
-relay3 = Pin(21, Pin.OUT)
+relay1 = Pin(19, Pin.OUT) #change according to your need
+relay2 = Pin(20, Pin.OUT) #change according to your need
+relay3 = Pin(21, Pin.OUT) #change according to your need
 
 relay1.value(0)
 relay2.value(0)
